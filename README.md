@@ -28,9 +28,9 @@ Key Findings
 
 - Order Fulfillment	- Long cycle times; Avg fulfillment: 3.1 days; 35% of orders > 2 days
 - Picker Performance -	High error rate;	Picker PCK002 had an 18% error rate (4× avg)
-- Inventory Control	- Low accuracy & dead stock	18 SKUs < 90% accuracy, 25 SKUs inactive > 90 days
-- Inbound Handling -	Putaway delays;	Avg dock-to-stock: 3.2 hrs, with some > 5 hrs
-- Returns & Errors -	Costly mis-picks;	Mis-picks caused $80.50 in avoidable losses
+- Inventory Control	- Low accuracy; 26 SKUs > 100% accuracy (Oversupply), 23 SKUs inactive > 90 days
+- Inbound Handling -	Putaway delays;	Avg dock-to-stock: 2.53 hrs
+- Returns & Errors -	Costly late shipment and damages;	Damages caused $56.80 in avoidable losses
 
 Recommendations
 
@@ -38,7 +38,7 @@ Recommendations
 - Picker Training -	Retrain PCK002; monitor weekly performance
 - Inventory Accuracy -	Audit low-accuracy SKUs; remove dead stock
 - Inbound Logistics -	Add staffing during peak hours
-- Error Prevention -	Improve barcode scanning & reduce vendor errors
+- Error Prevention -	Trace root cause of damage; investigate late shipments
 
 Dashboard Overview
 
@@ -48,8 +48,7 @@ The Excel file includes a dashboard with:
 - Inventory Accuracy Pie Chart
 - Dock-to-Stock Time Trend
 - Error Type Cost Breakdown
-- Dynamic formatting and KPI summary boxes make it easy to spot problem areas at a glance.
-
+  
 Files Included:
 
 warehouse_analysis.xlsx – Full dataset, formulas, pivot tables, and dashboard
@@ -58,13 +57,13 @@ Skills Demonstrated:
 
 - Real-world problem framing
 - Data cleaning and calculated fields
-- KPI analysis and benchmarking
+- Analysis and benchmarking
 - Excel dashboard design
 - Root-cause analysis and actionable insight generation
 
 Next Steps:
 
-Rebuild analysis in Power BI or Python (pandas)
-Add automation features (e.g., macros or Excel Power Query)
+Rebuild analysis in Tableau or Python (pandas)
+Add automation features
 Perform what-if simulations to estimate savings from recommendations
 
